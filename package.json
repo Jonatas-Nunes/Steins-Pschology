@@ -1,0 +1,23 @@
+{
+  "name": "stein-pschology",
+  "version": "1.0.0",
+  "description": "This is a project developed as a non-profit work. This project will belongs only to Felice Stein in all her legal rights and copyright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fspychology"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/Jonatas-Nunes.git"
+  },
+  "author": "Jônatas Nunes Pereira Eleutério",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/Jonatas-Nunes/issues"
+  },
+  "homepage": "https://github.com/github.com/Jonatas-Nunes#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
