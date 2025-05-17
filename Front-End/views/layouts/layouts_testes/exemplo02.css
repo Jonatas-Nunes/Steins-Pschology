@@ -1,0 +1,75 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+nav {
+    background-color: #026886;
+}
+
+.toolbar {
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-decoration: none;
+   font-size:1.25rem
+}
+
+.background-container {
+   background-image: url('/UX-UI/Modelos/Imagens/nebula.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;   
+   justify-content: space-between;
+   color: white;
+   padding: 20px;
+   height: auto;
+}
+
+.image-container {
+   width: 100%;
+   height: auto;
+   overflow: hidden;  
+}
+
+.image-container img {
+   width: 100%;
+   height: auto;
+   display: block;
+   object-fit: cover
+}
+
+content {
+   width: auto;
+}
+
+.content h1 {
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.content h2 {
+   font-size: 2rem;
+   font-weight: 400;
+}
+
+.content p {
+   font-size: 1rem;
+   margin: 20px 0;
+}
+
+.buttons {
+   display: flex;
+   gap: 10px;
+}
+
+.profile-image {
+   max-width: 30%;
+}
+
+.profile-image img {
+   border-radius: 50%;
+   max-width: 100%;
+}

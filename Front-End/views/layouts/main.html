@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatibble" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
-    <title>Felice Stein Psicóloga Clínica</title>
-</head>
-<body>
-    <nav>
-        <div class="container">
-            <div>
-                <header class="mb-30">
-                    <i class="bi-person-lines-fill logotipo"></i>
-                    <a href="#Tiktok" class="btn-contorno">Tiktok</a>
-                </header>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Estilizada</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/UX-UI/Modelos/Imagens/Logo/logo-navbar.png" alt="Felice Stein Psicologia Clínica" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviço</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search.." />
+        <button><span>&#128269;</span></button>
+      </div>
     </nav>
-</body>
+
+    <section class="hero">
+      <img src="/UX-UI/Modelos/Imagens/nebula.jpg" alt="Imagem de Fundo">
+      <div class="hero-content">
+        <img src="/UX-UI/Modelos/Imagens/her-profile.png" alt="">
+        <h1>Felice Stein</h1>
+        <h2>Psicóloga Clínica</h2>
+        <p>
+          Psicoterapia com escuta atenta e acolhimento.<br />
+          Um espaço para cuidar da sua saúde emocional.
+        </p>
+        <div class="hero-buttons">
+          <button>Contate-me</button>
+          <button class="btn-outline">Meus Serviços</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="/UX-UI/Modelos/Imagens/her-profile.png" alt="Foto de Felice Stein" />
+      </div>
+    </section>
+  </body>
 </html>
