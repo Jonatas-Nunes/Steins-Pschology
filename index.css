@@ -574,6 +574,7 @@ body {
             position: static;
             transform: none;
             padding: 20px 10px;
+            background: #004c5c;
       }
 
       .hero-content img {
